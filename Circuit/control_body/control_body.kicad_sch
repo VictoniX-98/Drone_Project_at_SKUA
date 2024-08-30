@@ -1,0 +1,197 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "becb8d68-b287-47c5-9156-e53712089464")
+	(paper "A4")
+	(title_block
+		(title "Block diagram of Drone control board units")
+		(date "2024-07-09")
+		(company "SCHOOL OF AIR DEFENCE - TANGA")
+	)
+	(lib_symbols)
+	(bus_alias "control_to_lighting"
+		(members "front_pin" "landing_pin" "beacon_pin" "strobe_pin" "nav_red_pin"
+			"nav_green_pin" "nav_white_pin"
+		)
+	)
+	(bus
+		(pts
+			(xy 165.1 93.98) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e47091-ec43-4f3f-9389-b1d03b5846bb")
+	)
+	(bus
+		(pts
+			(xy 101.6 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48636a35-737f-49f4-8fb7-b3b013833e1e")
+	)
+	(sheet
+		(at 127 76.2)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "671b72ba-f239-4872-9c6b-04ef43419eae")
+		(property "Sheetname" "Control UNIT"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_unit.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{control_to_lighting}" output
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af55a49c-1481-401d-9a63-2aab04384da5")
+		)
+		(pin "{sensor_to_control}" input
+			(at 127 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d54b6836-2e37-4edf-88d1-7566aa84d5c5")
+		)
+		(instances
+			(project "control_body"
+				(path "/becb8d68-b287-47c5-9156-e53712089464"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 76.2)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "736cd8d8-d10d-4c50-875f-367576f865ea")
+		(property "Sheetname" "Lighting UNIT"
+			(at 190.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lighting_unit.kicad_sch"
+			(at 190.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{control_to_lighting}" input
+			(at 190.5 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe2cded0-5ef0-4184-8680-3f4d0e50cef0")
+		)
+		(instances
+			(project "control_body"
+				(path "/becb8d68-b287-47c5-9156-e53712089464"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 76.2)
+		(size 38.1 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9744376-716c-4539-ba33-11d2c4299529")
+		(property "Sheetname" "Sensor UNIT"
+			(at 63.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_unit.kicad_sch"
+			(at 63.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{sensor_to_control}" output
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77c62809-d1dd-4693-b66e-747fd852c66f")
+		)
+		(instances
+			(project "control_body"
+				(path "/becb8d68-b287-47c5-9156-e53712089464"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

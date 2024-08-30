@@ -1,0 +1,12 @@
+Designator,Footprint,Comment
+"C1,C5,C6",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,100nF
+"C2,C3,C4",Capacitor_THT:CP_Radial_D13.0mm_P5.00mm,1000uF
+"D1,D2,D3,D4",Diode_SMD:D_SMA,SS32
+J6,Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical,Control
+J7,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,Communication
+J8,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,Camera
+"L1,L2,L3",Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07P,100uH
+SW1,Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,Switch
+U1,Package_TO_SOT_SMD:TO-263-5_TabPin3,LM2576HVS-3.3
+U2,Package_TO_SOT_SMD:TO-263-5_TabPin3,LM2576HVS-5
+U3,Package_TO_SOT_SMD:TO-263-5_TabPin3,LM2576HVS-12

@@ -1,0 +1,21 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,178.85,-80.4625,-90,top
+C2,1000uF,CP_Radial_D13.0mm_P5.00mm,165,-112.5,90,top
+C3,1000uF,CP_Radial_D13.0mm_P5.00mm,165,-82.5,90,top
+C4,1000uF,CP_Radial_D13.0mm_P5.00mm,165,-97.5,90,top
+C5,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,178.85,-95.4625,-90,top
+C6,100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,178.85,-110.5,-90,top
+D1,SS32,D_SMA,117,-110.5,-90,top
+D2,SS32,D_SMA,117,-95,-90,top
+D3,SS32,D_SMA,117,-80.5,-90,top
+D4,SS32,D_SMA,125.1125,-72.19,0,top
+J6,Control,JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical,108.85,-54.5,180,top
+J7,Communication,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,92.85,-123,-90,top
+J8,Camera,JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,101.85,-134.5,0,top
+L1,100uH,L_Radial_D10.0mm_P5.00mm_Fastron_07P,147.85,-107.5,-90,top
+L2,100uH,L_Radial_D10.0mm_P5.00mm_Fastron_07P,147.85,-92.5,-90,top
+L3,100uH,L_Radial_D10.0mm_P5.00mm_Fastron_07P,147.85,-77.5,-90,top
+SW1,Switch,SW_Slide_SPDT_Straight_CK_OS102011MS2Q,106.85,-64.5,180,top
+U1,LM2576HVS-3.3,TO-263-5_TabPin3,130.725,-94.725,0,top
+U2,LM2576HVS-5,TO-263-5_TabPin3,130.725,-110.5,0,top
+U3,LM2576HVS-12,TO-263-5_TabPin3,130.725,-80.5,0,top

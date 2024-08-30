@@ -1,0 +1,55 @@
+Designator,Footprint,Comment
+AE1,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,Anten.
+AE2,Connector_Coaxial:MMCX_Molex_73415-1471_Vertical,Antenna
+BZ1,Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm,Buzzer
+"C1,C16",-- mixed values --,10uF
+"C2,C4,C7,C8",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,22pF
+C3,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,0.47uF
+C5,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,0.1uF
+C6,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,1nF
+"C9,C10",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,100nF
+"C11,C12,C13,C14",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,NC
+C15,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,0.01uF
+"D1,D5",Diode_SMD:D_SMA,SS32
+D2,LED_SMD:LED_1206_3216Metric,LED
+D3,LED_SMD:LED_1206_3216Metric,Error Ind.
+D4,Diode_SMD:D_MiniMELF,BZV55B5V1
+D6,LED_SMD:LED_1206_3216Metric,Power Ind.
+D7,LED_SMD:LED_1206_3216Metric,RX_LED
+D8,LED_SMD:LED_1206_3216Metric,TX_LED
+"J1,J11,J12,J13",Connector_Wuerth:Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical,Servo
+J2,Connector_USB:USB_Micro-B_Molex_47346-0001,USB
+"J3,J21",Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,SPI
+J4,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,UART
+"J5,J6,J7,J8,J9",Connector_Wuerth:Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical,ESC
+"J10,J15,J16,J17,J18,J19",Connector_Wuerth:Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical,Proximity
+J14,Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical,POWER
+J20,Connector_Wuerth:Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical,Communication
+J23,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal,Lights connectors
+L1,Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder,27nH
+"Q1,Q2,Q3",Package_SO:SO-8_3.9x4.9mm_P1.27mm,IRF7380
+Q4,Package_TO_SOT_SMD:TO-263-2,IRF540NS
+"Q5,Q6,Q7",Package_TO_SOT_SMD:SOT-363_SC-70-6,UMH3N
+Q9,Package_TO_SOT_SMD:SOT-223-3_TabPin2,PZT2222A
+R1,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,6.2k
+R3,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,47k
+R4,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,4.7k
+"R2,R11",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,10
+"R5,R13,R14,R15,R16,R17,R18,R20,R23,R24,R25,R26,R27,R28,R29",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,10k
+"R6,R7",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,330
+"R8,R9,R10",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,100
+R12,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,0
+R19,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,72k
+"R21,R22",Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,470
+SW1,Button_Switch_SMD:SW_SPST_CK_RS282G05A3,Reset BTN
+SW2,Button_Switch_SMD:SW_SPST_B3U-1000P,BTN1
+SW3,Button_Switch_SMD:SW_SPST_B3U-1000P,BTN2
+U1,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,CH340G
+U2,Package_QFP:TQFP-64_14x14mm_P0.8mm,ATmega2561-16A
+U3,RF_GPS:SIM28ML,SIM28ML
+U4,Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering,BMP280
+U5,Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm,MPU-9150
+U6,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,NE555D
+U7,Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm,ATtiny85-20S
+Y1,Crystal:Crystal_SMD_HC49-SD,12MHz
+Y2,Crystal:Crystal_SMD_HC49-SD,16MHz
