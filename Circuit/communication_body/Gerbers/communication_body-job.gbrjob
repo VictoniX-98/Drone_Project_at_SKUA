@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.3-8.0.3-0~ubuntu22.04.1"
+      "Version": "8.0.4-8.0.4-0~ubuntu24.04.1"
     },
-    "CreationDate": "2024-08-07T12:48:36+03:00"
+    "CreationDate": "2024-09-01T12:42:59+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -84,8 +84,38 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "communication_body-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "communication_body-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "communication_body-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "communication_body-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "communication_body-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "communication_body-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "communication_body-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
